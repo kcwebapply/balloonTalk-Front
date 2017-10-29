@@ -1,0 +1,8 @@
+github "Alamofire/Alamofire" "4.5.0"
+github "CosmicMind/Material" "2.6.3"
+github "Krimpedance/KRProgressHUD" "3.0.0"
+github "SwiftyJSON/SwiftyJSON" "3.1.4"
+github "dekatotoro/SlideMenuControllerSwift" "3.0.1"
+github "krimpedance/KRActivityIndicatorView" "2.0.2"
+github "realm/realm-cocoa" "v2.8.3"
+github "socketio/socket.io-client-swift" "v9.0.1"

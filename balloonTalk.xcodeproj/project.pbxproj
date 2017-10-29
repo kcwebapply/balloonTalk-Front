@@ -1,0 +1,869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2613E8D11F11AA8B00092337 /* ChatContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613E8D01F11AA8B00092337 /* ChatContent.swift */; };
+		2613E8D31F11B4C900092337 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2613E8D21F11B4C900092337 /* back.png */; };
+		2650E97A1EE1A55400122689 /* skyback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2650E9791EE1A55400122689 /* skyback.jpg */; };
+		2650E97E1EE2C90B00122689 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650E97D1EE2C90B00122689 /* ChatViewController.swift */; };
+		2650E9811EE2CAB600122689 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650E9801EE2CAB600122689 /* Request.swift */; };
+		2650E9841EE2DEDA00122689 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2650E9831EE2DEDA00122689 /* cat.jpg */; };
+		2650E9861EE2DEE400122689 /* space.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2650E9851EE2DEE400122689 /* space.jpg */; };
+		2650E9881EE2DEE700122689 /* air.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2650E9871EE2DEE700122689 /* air.jpg */; };
+		2650E98A1EE3C11B00122689 /* BalloonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650E9891EE3C11B00122689 /* BalloonButton.swift */; };
+		2650E98C1EE3CE4B00122689 /* MakeBalloonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650E98B1EE3CE4B00122689 /* MakeBalloonController.swift */; };
+		2650E9911EE4278900122689 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650E98F1EE4278800122689 /* SCLAlertView.swift */; };
+		2650E9921EE4278900122689 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650E9901EE4278800122689 /* SCLExtensions.swift */; };
+		267B00AF1F10F59000C0501F /* ChatShowerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267B00AE1F10F59000C0501F /* ChatShowerController.swift */; };
+		267B00B21F10F6FC00C0501F /* ChatContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267B00B11F10F6FC00C0501F /* ChatContentCell.swift */; };
+		267B00B41F10F70C00C0501F /* ChatContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267B00B31F10F70C00C0501F /* ChatContentCell.xib */; };
+		A71866481EDAD6AB00696CB3 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71866471EDAD6AB00696CB3 /* SwiftyJSON.framework */; };
+		A718664A1EDAD6BA00696CB3 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71866491EDAD6BA00696CB3 /* SocketIO.framework */; };
+		A718664C1EDAD6C800696CB3 /* SlideMenuControllerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A718664B1EDAD6C800696CB3 /* SlideMenuControllerSwift.framework */; };
+		A718664E1EDAD6D700696CB3 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A718664D1EDAD6D700696CB3 /* RealmSwift.framework */; };
+		A71866501EDAD6E900696CB3 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A718664F1EDAD6E900696CB3 /* Realm.framework */; };
+		A71866521EDAD6FD00696CB3 /* KRProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71866511EDAD6FD00696CB3 /* KRProgressHUD.framework */; };
+		A71866541EDAD70D00696CB3 /* KRActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71866531EDAD70D00696CB3 /* KRActivityIndicatorView.framework */; };
+		A71866561EDAD71D00696CB3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71866551EDAD71D00696CB3 /* Alamofire.framework */; };
+		A71866591EDAD8E400696CB3 /* SocketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71866581EDAD8E400696CB3 /* SocketController.swift */; };
+		A71925B81EDEB51A00960029 /* Balloon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71925B71EDEB51A00960029 /* Balloon.swift */; };
+		A71925BB1EDEB61900960029 /* BalloonTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71925BA1EDEB61900960029 /* BalloonTypeEnum.swift */; };
+		A71925BD1EDEBA6200960029 /* BalloonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71925BC1EDEBA6200960029 /* BalloonFactory.swift */; };
+		A71945B41ED80B3C009F0098 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71945B31ED80B3C009F0098 /* AppDelegate.swift */; };
+		A71945B61ED80B3C009F0098 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71945B51ED80B3C009F0098 /* ViewController.swift */; };
+		A71945B91ED80B3C009F0098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A71945B71ED80B3C009F0098 /* Main.storyboard */; };
+		A71945BB1ED80B3C009F0098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71945BA1ED80B3C009F0098 /* Assets.xcassets */; };
+		A71945BE1ED80B3C009F0098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A71945BC1ED80B3C009F0098 /* LaunchScreen.storyboard */; };
+		A71945C91ED80B3C009F0098 /* balloonTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71945C81ED80B3C009F0098 /* balloonTalkTests.swift */; };
+		A71945D41ED80B3C009F0098 /* balloonTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71945D31ED80B3C009F0098 /* balloonTalkUITests.swift */; };
+		A71945E51ED80BF7009F0098 /* DefaultExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71945E41ED80BF7009F0098 /* DefaultExtensions.swift */; };
+		A71945E91ED81368009F0098 /* heart-balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = A71945E81ED81368009F0098 /* heart-balloon.png */; };
+		A71945EB1ED8136D009F0098 /* balloons.png in Resources */ = {isa = PBXBuildFile; fileRef = A71945EA1ED8136D009F0098 /* balloons.png */; };
+		A71945ED1ED81375009F0098 /* semi-balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = A71945EC1ED81375009F0098 /* semi-balloon.png */; };
+		A71945EF1ED81389009F0098 /* balloon-button.png in Resources */ = {isa = PBXBuildFile; fileRef = A71945EE1ED81389009F0098 /* balloon-button.png */; };
+		A71945F31ED81A2A009F0098 /* cg.png in Resources */ = {isa = PBXBuildFile; fileRef = A71945F01ED81A2A009F0098 /* cg.png */; };
+		A71945F41ED81A2A009F0098 /* cr.png in Resources */ = {isa = PBXBuildFile; fileRef = A71945F11ED81A2A009F0098 /* cr.png */; };
+		A71945F51ED81A2A009F0098 /* cy.png in Resources */ = {isa = PBXBuildFile; fileRef = A71945F21ED81A2A009F0098 /* cy.png */; };
+		A729608D1EE91D1D0000B9B9 /* HukidasiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A729608C1EE91D1D0000B9B9 /* HukidasiView.swift */; };
+		A7528C041EEC3CCE0089F9FD /* balloonPush.png in Resources */ = {isa = PBXBuildFile; fileRef = A7528C031EEC3CCE0089F9FD /* balloonPush.png */; };
+		A7528C061EEC46480089F9FD /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = A7528C051EEC46480089F9FD /* previous.png */; };
+		A79B1F041EECBA25002F89B5 /* RealmDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B1F031EECBA25002F89B5 /* RealmDB.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A71945C51ED80B3C009F0098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A71945A81ED80B3C009F0098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A71945AF1ED80B3C009F0098;
+			remoteInfo = balloonTalk;
+		};
+		A71945D01ED80B3C009F0098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A71945A81ED80B3C009F0098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A71945AF1ED80B3C009F0098;
+			remoteInfo = balloonTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2613E8D01F11AA8B00092337 /* ChatContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatContent.swift; sourceTree = "<group>"; };
+		2613E8D21F11B4C900092337 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		2650E9791EE1A55400122689 /* skyback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skyback.jpg; sourceTree = "<group>"; };
+		2650E97D1EE2C90B00122689 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		2650E9801EE2CAB600122689 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		2650E9831EE2DEDA00122689 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		2650E9851EE2DEE400122689 /* space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = space.jpg; sourceTree = "<group>"; };
+		2650E9871EE2DEE700122689 /* air.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = air.jpg; sourceTree = "<group>"; };
+		2650E9891EE3C11B00122689 /* BalloonButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonButton.swift; sourceTree = "<group>"; };
+		2650E98B1EE3CE4B00122689 /* MakeBalloonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeBalloonController.swift; sourceTree = "<group>"; };
+		2650E98F1EE4278800122689 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		2650E9901EE4278800122689 /* SCLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLExtensions.swift; sourceTree = "<group>"; };
+		267B00AE1F10F59000C0501F /* ChatShowerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatShowerController.swift; sourceTree = "<group>"; };
+		267B00B11F10F6FC00C0501F /* ChatContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatContentCell.swift; sourceTree = "<group>"; };
+		267B00B31F10F70C00C0501F /* ChatContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatContentCell.xib; sourceTree = "<group>"; };
+		A71866471EDAD6AB00696CB3 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		A71866491EDAD6BA00696CB3 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = Carthage/Build/iOS/SocketIO.framework; sourceTree = "<group>"; };
+		A718664B1EDAD6C800696CB3 /* SlideMenuControllerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SlideMenuControllerSwift.framework; path = Carthage/Build/iOS/SlideMenuControllerSwift.framework; sourceTree = "<group>"; };
+		A718664D1EDAD6D700696CB3 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		A718664F1EDAD6E900696CB3 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		A71866511EDAD6FD00696CB3 /* KRProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KRProgressHUD.framework; path = Carthage/Build/iOS/KRProgressHUD.framework; sourceTree = "<group>"; };
+		A71866531EDAD70D00696CB3 /* KRActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KRActivityIndicatorView.framework; path = Carthage/Build/iOS/KRActivityIndicatorView.framework; sourceTree = "<group>"; };
+		A71866551EDAD71D00696CB3 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		A71866581EDAD8E400696CB3 /* SocketController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketController.swift; sourceTree = "<group>"; };
+		A71925B71EDEB51A00960029 /* Balloon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balloon.swift; sourceTree = "<group>"; };
+		A71925BA1EDEB61900960029 /* BalloonTypeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonTypeEnum.swift; sourceTree = "<group>"; };
+		A71925BC1EDEBA6200960029 /* BalloonFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonFactory.swift; sourceTree = "<group>"; };
+		A71945B01ED80B3C009F0098 /* balloonTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = balloonTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71945B31ED80B3C009F0098 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A71945B51ED80B3C009F0098 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A71945B81ED80B3C009F0098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A71945BA1ED80B3C009F0098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A71945BD1ED80B3C009F0098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A71945BF1ED80B3C009F0098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A71945C41ED80B3C009F0098 /* balloonTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = balloonTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71945C81ED80B3C009F0098 /* balloonTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balloonTalkTests.swift; sourceTree = "<group>"; };
+		A71945CA1ED80B3C009F0098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A71945CF1ED80B3C009F0098 /* balloonTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = balloonTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71945D31ED80B3C009F0098 /* balloonTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balloonTalkUITests.swift; sourceTree = "<group>"; };
+		A71945D51ED80B3C009F0098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A71945E41ED80BF7009F0098 /* DefaultExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultExtensions.swift; sourceTree = "<group>"; };
+		A71945E81ED81368009F0098 /* heart-balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-balloon.png"; sourceTree = "<group>"; };
+		A71945EA1ED8136D009F0098 /* balloons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloons.png; sourceTree = "<group>"; };
+		A71945EC1ED81375009F0098 /* semi-balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "semi-balloon.png"; sourceTree = "<group>"; };
+		A71945EE1ED81389009F0098 /* balloon-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon-button.png"; sourceTree = "<group>"; };
+		A71945F01ED81A2A009F0098 /* cg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cg.png; sourceTree = "<group>"; };
+		A71945F11ED81A2A009F0098 /* cr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cr.png; sourceTree = "<group>"; };
+		A71945F21ED81A2A009F0098 /* cy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cy.png; sourceTree = "<group>"; };
+		A729608C1EE91D1D0000B9B9 /* HukidasiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HukidasiView.swift; sourceTree = "<group>"; };
+		A7528C031EEC3CCE0089F9FD /* balloonPush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloonPush.png; sourceTree = "<group>"; };
+		A7528C051EEC46480089F9FD /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
+		A79B1F031EECBA25002F89B5 /* RealmDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDB.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A71945AD1ED80B3C009F0098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71866561EDAD71D00696CB3 /* Alamofire.framework in Frameworks */,
+				A71866541EDAD70D00696CB3 /* KRActivityIndicatorView.framework in Frameworks */,
+				A71866521EDAD6FD00696CB3 /* KRProgressHUD.framework in Frameworks */,
+				A71866501EDAD6E900696CB3 /* Realm.framework in Frameworks */,
+				A718664E1EDAD6D700696CB3 /* RealmSwift.framework in Frameworks */,
+				A718664C1EDAD6C800696CB3 /* SlideMenuControllerSwift.framework in Frameworks */,
+				A718664A1EDAD6BA00696CB3 /* SocketIO.framework in Frameworks */,
+				A71866481EDAD6AB00696CB3 /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71945C11ED80B3C009F0098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71945CC1ED80B3C009F0098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2613E8CF1F11AA6E00092337 /* UIParts */ = {
+			isa = PBXGroup;
+			children = (
+				267B00B01F10F6E900C0501F /* Cell */,
+			);
+			name = UIParts;
+			path = UIParts;
+			sourceTree = "<group>";
+		};
+		2650E97F1EE2CAA900122689 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				2650E9801EE2CAB600122689 /* Request.swift */,
+			);
+			name = http;
+			path = http;
+			sourceTree = "<group>";
+		};
+		2650E9821EE2DED300122689 /* tmp */ = {
+			isa = PBXGroup;
+			children = (
+				2650E9871EE2DEE700122689 /* air.jpg */,
+				2650E9831EE2DEDA00122689 /* cat.jpg */,
+				2650E9851EE2DEE400122689 /* space.jpg */,
+			);
+			name = tmp;
+			path = tmp;
+			sourceTree = "<group>";
+		};
+		2650E98D1EE4276D00122689 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				2650E98E1EE4277400122689 /* SCLAlertView */,
+				A79B1F031EECBA25002F89B5 /* RealmDB.swift */,
+			);
+			name = Library;
+			path = Library;
+			sourceTree = "<group>";
+		};
+		2650E98E1EE4277400122689 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				2650E98F1EE4278800122689 /* SCLAlertView.swift */,
+				2650E9901EE4278800122689 /* SCLExtensions.swift */,
+			);
+			name = SCLAlertView;
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		267B00B01F10F6E900C0501F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2613E8D01F11AA8B00092337 /* ChatContent.swift */,
+				267B00B11F10F6FC00C0501F /* ChatContentCell.swift */,
+				267B00B31F10F70C00C0501F /* ChatContentCell.xib */,
+			);
+			name = Cell;
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A71866461EDAD6AB00696CB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A71866551EDAD71D00696CB3 /* Alamofire.framework */,
+				A71866531EDAD70D00696CB3 /* KRActivityIndicatorView.framework */,
+				A71866511EDAD6FD00696CB3 /* KRProgressHUD.framework */,
+				A718664F1EDAD6E900696CB3 /* Realm.framework */,
+				A718664D1EDAD6D700696CB3 /* RealmSwift.framework */,
+				A718664B1EDAD6C800696CB3 /* SlideMenuControllerSwift.framework */,
+				A71866491EDAD6BA00696CB3 /* SocketIO.framework */,
+				A71866471EDAD6AB00696CB3 /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A71866571EDAD8D500696CB3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				267B00AE1F10F59000C0501F /* ChatShowerController.swift */,
+				2650E97D1EE2C90B00122689 /* ChatViewController.swift */,
+				2650E98B1EE3CE4B00122689 /* MakeBalloonController.swift */,
+				A71866581EDAD8E400696CB3 /* SocketController.swift */,
+				A71945B51ED80B3C009F0098 /* ViewController.swift */,
+			);
+			name = Controller;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A71925B61EDEB4FC00960029 /* BalloonUI */ = {
+			isa = PBXGroup;
+			children = (
+				A71925B71EDEB51A00960029 /* Balloon.swift */,
+				2650E9891EE3C11B00122689 /* BalloonButton.swift */,
+				A71925BC1EDEBA6200960029 /* BalloonFactory.swift */,
+				A729608C1EE91D1D0000B9B9 /* HukidasiView.swift */,
+			);
+			name = BalloonUI;
+			path = BalloonUI;
+			sourceTree = "<group>";
+		};
+		A71925B91EDEB60700960029 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				A71925BA1EDEB61900960029 /* BalloonTypeEnum.swift */,
+			);
+			name = Enum;
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		A71945A71ED80B3C009F0098 = {
+			isa = PBXGroup;
+			children = (
+				A71866461EDAD6AB00696CB3 /* Frameworks */,
+				A71945B11ED80B3C009F0098 /* Products */,
+				A71945B21ED80B3C009F0098 /* balloonTalk */,
+				A71945C71ED80B3C009F0098 /* balloonTalkTests */,
+				A71945D21ED80B3C009F0098 /* balloonTalkUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		A71945B11ED80B3C009F0098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A71945B01ED80B3C009F0098 /* balloonTalk.app */,
+				A71945C41ED80B3C009F0098 /* balloonTalkTests.xctest */,
+				A71945CF1ED80B3C009F0098 /* balloonTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A71945B21ED80B3C009F0098 /* balloonTalk */ = {
+			isa = PBXGroup;
+			children = (
+				A71945E31ED80BCB009F0098 /* Classes */,
+				A71866571EDAD8D500696CB3 /* Controller */,
+				2650E98D1EE4276D00122689 /* Library */,
+				A71945E11ED80B80009F0098 /* Resources */,
+				A71945B31ED80B3C009F0098 /* AppDelegate.swift */,
+				A71945BA1ED80B3C009F0098 /* Assets.xcassets */,
+				A71945BF1ED80B3C009F0098 /* Info.plist */,
+				A71945BC1ED80B3C009F0098 /* LaunchScreen.storyboard */,
+				A71945B71ED80B3C009F0098 /* Main.storyboard */,
+			);
+			path = balloonTalk;
+			sourceTree = "<group>";
+		};
+		A71945C71ED80B3C009F0098 /* balloonTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				A71945CA1ED80B3C009F0098 /* Info.plist */,
+				A71945C81ED80B3C009F0098 /* balloonTalkTests.swift */,
+			);
+			path = balloonTalkTests;
+			sourceTree = "<group>";
+		};
+		A71945D21ED80B3C009F0098 /* balloonTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A71945D51ED80B3C009F0098 /* Info.plist */,
+				A71945D31ED80B3C009F0098 /* balloonTalkUITests.swift */,
+			);
+			path = balloonTalkUITests;
+			sourceTree = "<group>";
+		};
+		A71945E11ED80B80009F0098 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A71945E61ED81352009F0098 /* Image */,
+				A71945E71ED81356009F0098 /* Music */,
+				2650E9821EE2DED300122689 /* tmp */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A71945E21ED80BA5009F0098 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A71945E41ED80BF7009F0098 /* DefaultExtensions.swift */,
+			);
+			name = Extensions;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A71945E31ED80BCB009F0098 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A71925B61EDEB4FC00960029 /* BalloonUI */,
+				A71925B91EDEB60700960029 /* Enum */,
+				A71945E21ED80BA5009F0098 /* Extensions */,
+				2613E8CF1F11AA6E00092337 /* UIParts */,
+				2650E97F1EE2CAA900122689 /* http */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A71945E61ED81352009F0098 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				2613E8D21F11B4C900092337 /* back.png */,
+				A71945EE1ED81389009F0098 /* balloon-button.png */,
+				A7528C031EEC3CCE0089F9FD /* balloonPush.png */,
+				A71945EA1ED8136D009F0098 /* balloons.png */,
+				A71945F01ED81A2A009F0098 /* cg.png */,
+				A71945F11ED81A2A009F0098 /* cr.png */,
+				A71945F21ED81A2A009F0098 /* cy.png */,
+				A71945E81ED81368009F0098 /* heart-balloon.png */,
+				A7528C051EEC46480089F9FD /* previous.png */,
+				A71945EC1ED81375009F0098 /* semi-balloon.png */,
+				2650E9791EE1A55400122689 /* skyback.jpg */,
+			);
+			name = Image;
+			path = Image;
+			sourceTree = "<group>";
+		};
+		A71945E71ED81356009F0098 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Music;
+			path = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A71945AF1ED80B3C009F0098 /* balloonTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71945D81ED80B3C009F0098 /* Build configuration list for PBXNativeTarget "balloonTalk" */;
+			buildPhases = (
+				A71945AC1ED80B3C009F0098 /* Sources */,
+				A71945AD1ED80B3C009F0098 /* Frameworks */,
+				A71945AE1ED80B3C009F0098 /* Resources */,
+				A71866451EDAB26400696CB3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = balloonTalk;
+			productName = balloonTalk;
+			productReference = A71945B01ED80B3C009F0098 /* balloonTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A71945C31ED80B3C009F0098 /* balloonTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71945DB1ED80B3C009F0098 /* Build configuration list for PBXNativeTarget "balloonTalkTests" */;
+			buildPhases = (
+				A71945C01ED80B3C009F0098 /* Sources */,
+				A71945C11ED80B3C009F0098 /* Frameworks */,
+				A71945C21ED80B3C009F0098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A71945C61ED80B3C009F0098 /* PBXTargetDependency */,
+			);
+			name = balloonTalkTests;
+			productName = balloonTalkTests;
+			productReference = A71945C41ED80B3C009F0098 /* balloonTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A71945CE1ED80B3C009F0098 /* balloonTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71945DE1ED80B3C009F0098 /* Build configuration list for PBXNativeTarget "balloonTalkUITests" */;
+			buildPhases = (
+				A71945CB1ED80B3C009F0098 /* Sources */,
+				A71945CC1ED80B3C009F0098 /* Frameworks */,
+				A71945CD1ED80B3C009F0098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A71945D11ED80B3C009F0098 /* PBXTargetDependency */,
+			);
+			name = balloonTalkUITests;
+			productName = balloonTalkUITests;
+			productReference = A71945CF1ED80B3C009F0098 /* balloonTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A71945A81ED80B3C009F0098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "和田　継嗣";
+				TargetAttributes = {
+					A71945AF1ED80B3C009F0098 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EJ4A4267M6;
+						ProvisioningStyle = Automatic;
+					};
+					A71945C31ED80B3C009F0098 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EJ4A4267M6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A71945AF1ED80B3C009F0098;
+					};
+					A71945CE1ED80B3C009F0098 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EJ4A4267M6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A71945AF1ED80B3C009F0098;
+					};
+				};
+			};
+			buildConfigurationList = A71945AB1ED80B3C009F0098 /* Build configuration list for PBXProject "balloonTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A71945A71ED80B3C009F0098;
+			productRefGroup = A71945B11ED80B3C009F0098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A71945AF1ED80B3C009F0098 /* balloonTalk */,
+				A71945C31ED80B3C009F0098 /* balloonTalkTests */,
+				A71945CE1ED80B3C009F0098 /* balloonTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A71945AE1ED80B3C009F0098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71945BE1ED80B3C009F0098 /* LaunchScreen.storyboard in Resources */,
+				A71945EB1ED8136D009F0098 /* balloons.png in Resources */,
+				2613E8D31F11B4C900092337 /* back.png in Resources */,
+				A71945EF1ED81389009F0098 /* balloon-button.png in Resources */,
+				A71945F31ED81A2A009F0098 /* cg.png in Resources */,
+				267B00B41F10F70C00C0501F /* ChatContentCell.xib in Resources */,
+				A71945F41ED81A2A009F0098 /* cr.png in Resources */,
+				2650E9861EE2DEE400122689 /* space.jpg in Resources */,
+				2650E97A1EE1A55400122689 /* skyback.jpg in Resources */,
+				A71945F51ED81A2A009F0098 /* cy.png in Resources */,
+				2650E9881EE2DEE700122689 /* air.jpg in Resources */,
+				2650E9841EE2DEDA00122689 /* cat.jpg in Resources */,
+				A71945ED1ED81375009F0098 /* semi-balloon.png in Resources */,
+				A7528C041EEC3CCE0089F9FD /* balloonPush.png in Resources */,
+				A7528C061EEC46480089F9FD /* previous.png in Resources */,
+				A71945E91ED81368009F0098 /* heart-balloon.png in Resources */,
+				A71945BB1ED80B3C009F0098 /* Assets.xcassets in Resources */,
+				A71945B91ED80B3C009F0098 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71945C21ED80B3C009F0098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71945CD1ED80B3C009F0098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A71866451EDAB26400696CB3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SocketIO.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SlideMenuControllerSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/KRProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/KRActivityIndicatorView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A71945AC1ED80B3C009F0098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71925BB1EDEB61900960029 /* BalloonTypeEnum.swift in Sources */,
+				267B00AF1F10F59000C0501F /* ChatShowerController.swift in Sources */,
+				2650E98C1EE3CE4B00122689 /* MakeBalloonController.swift in Sources */,
+				A71945B61ED80B3C009F0098 /* ViewController.swift in Sources */,
+				2650E97E1EE2C90B00122689 /* ChatViewController.swift in Sources */,
+				267B00B21F10F6FC00C0501F /* ChatContentCell.swift in Sources */,
+				A71925BD1EDEBA6200960029 /* BalloonFactory.swift in Sources */,
+				A71945E51ED80BF7009F0098 /* DefaultExtensions.swift in Sources */,
+				A71925B81EDEB51A00960029 /* Balloon.swift in Sources */,
+				A71866591EDAD8E400696CB3 /* SocketController.swift in Sources */,
+				2650E98A1EE3C11B00122689 /* BalloonButton.swift in Sources */,
+				2650E9811EE2CAB600122689 /* Request.swift in Sources */,
+				A79B1F041EECBA25002F89B5 /* RealmDB.swift in Sources */,
+				2613E8D11F11AA8B00092337 /* ChatContent.swift in Sources */,
+				2650E9921EE4278900122689 /* SCLExtensions.swift in Sources */,
+				2650E9911EE4278900122689 /* SCLAlertView.swift in Sources */,
+				A729608D1EE91D1D0000B9B9 /* HukidasiView.swift in Sources */,
+				A71945B41ED80B3C009F0098 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71945C01ED80B3C009F0098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71945C91ED80B3C009F0098 /* balloonTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71945CB1ED80B3C009F0098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71945D41ED80B3C009F0098 /* balloonTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A71945C61ED80B3C009F0098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A71945AF1ED80B3C009F0098 /* balloonTalk */;
+			targetProxy = A71945C51ED80B3C009F0098 /* PBXContainerItemProxy */;
+		};
+		A71945D11ED80B3C009F0098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A71945AF1ED80B3C009F0098 /* balloonTalk */;
+			targetProxy = A71945D01ED80B3C009F0098 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A71945B71ED80B3C009F0098 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A71945B81ED80B3C009F0098 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		A71945BC1ED80B3C009F0098 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A71945BD1ED80B3C009F0098 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A71945D61ED80B3C009F0098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A71945D71ED80B3C009F0098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A71945D91ED80B3C009F0098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EJ4A4267M6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = balloonTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keiwada.balloonTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A71945DA1ED80B3C009F0098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EJ4A4267M6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = balloonTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keiwada.balloonTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A71945DC1ED80B3C009F0098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EJ4A4267M6;
+				INFOPLIST_FILE = balloonTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keiwada.balloonTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/balloonTalk.app/balloonTalk";
+			};
+			name = Debug;
+		};
+		A71945DD1ED80B3C009F0098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EJ4A4267M6;
+				INFOPLIST_FILE = balloonTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keiwada.balloonTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/balloonTalk.app/balloonTalk";
+			};
+			name = Release;
+		};
+		A71945DF1ED80B3C009F0098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EJ4A4267M6;
+				INFOPLIST_FILE = balloonTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keiwada.balloonTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = balloonTalk;
+			};
+			name = Debug;
+		};
+		A71945E01ED80B3C009F0098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EJ4A4267M6;
+				INFOPLIST_FILE = balloonTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keiwada.balloonTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = balloonTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A71945AB1ED80B3C009F0098 /* Build configuration list for PBXProject "balloonTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71945D61ED80B3C009F0098 /* Debug */,
+				A71945D71ED80B3C009F0098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71945D81ED80B3C009F0098 /* Build configuration list for PBXNativeTarget "balloonTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71945D91ED80B3C009F0098 /* Debug */,
+				A71945DA1ED80B3C009F0098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71945DB1ED80B3C009F0098 /* Build configuration list for PBXNativeTarget "balloonTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71945DC1ED80B3C009F0098 /* Debug */,
+				A71945DD1ED80B3C009F0098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71945DE1ED80B3C009F0098 /* Build configuration list for PBXNativeTarget "balloonTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71945DF1ED80B3C009F0098 /* Debug */,
+				A71945E01ED80B3C009F0098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A71945A81ED80B3C009F0098 /* Project object */;
+}
